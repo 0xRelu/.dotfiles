@@ -1,5 +1,5 @@
-#!/usr/bin/sh
-
+#!/bin/bash
+#
 # stow dotfiles
 stow zsh
 stow p10k
