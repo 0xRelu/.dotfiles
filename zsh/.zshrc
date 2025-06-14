@@ -18,5 +18,8 @@ if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
 fi
 source ${zsh_plugins}.zsh
 
+# DIRCOLORS (MacOS)
+export CLICOLOR=1
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
