@@ -11,5 +11,5 @@ command -v zsh | sudo tee -a /etc/shells
 # use zsh as default shell
 chsh -s $(which zsh) $USER
 
-# install antidote
-git clone --depth=1 https://github.com/mattmc3/antidote.git ${HOME}/.antidote
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

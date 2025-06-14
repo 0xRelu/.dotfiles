@@ -6,4 +6,4 @@ stow -D p10k
 stow -D zsh
 
 # remove antidote
-rm -rf $HOME/.antidote
+rm -rf $HOME/.oh-my-zsh
