@@ -23,3 +23,6 @@ export CLICOLOR=1
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Add go plugins/installs to path
+export PATH="$HOME/go/bin:$PATH"
