@@ -2,6 +2,7 @@
 
 # Remove links
 stow -D nvim
+stow -D lazygit
 stow -D p10k
 stow -D zsh
 
