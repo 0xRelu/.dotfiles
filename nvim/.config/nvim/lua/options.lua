@@ -7,6 +7,8 @@ vim.o.mouse = 'a'
 -- Dont show mode as it is already in the status line
 vim.o.showmode = false
 
+vim.opt.virtualedit = "onemore"
+
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  Remove this option if you want your OS clipboard to remain independent.
@@ -17,6 +19,9 @@ end)
 
 -- Enable break indent
 vim.o.breakindent = true
+
+-- dont wrap
+vim.opt.wrap = false
 
 -- Save undo history
 vim.o.undofile = true
