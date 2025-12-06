@@ -5,6 +5,7 @@ stow zsh
 stow p10k
 stow nvim
 stow lazygit
+stow ideavim
 
 # add zsh as a login shell
 command -v zsh | sudo tee -a /etc/shells
